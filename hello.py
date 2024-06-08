@@ -4,7 +4,7 @@ print("Hello World")
 print("This is from git")
 
 name = "Harry"
-def named():
+def named(a):
     if name == "Harry":
         return "This is correct"
     else:
@@ -12,4 +12,4 @@ def named():
     print(436)
 
 if name == "main":
-    hello.named()
+    hello.named(25)
