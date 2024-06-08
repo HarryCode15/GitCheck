@@ -1,3 +1,5 @@
+import hello
+
 print("Hello World")
 print("This is from git")
 
@@ -8,3 +10,6 @@ def named():
     else:
         return "This is  incorrect"
     print(436)
+
+if name == "main":
+    hello.named()
